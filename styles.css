@@ -1,0 +1,98 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: 400;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Abel', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills ul li {
+    margin: 5px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icons a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Set link color as needed */
+}
+.circular-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* This creates a circular shape */
+    object-fit: cover;
+}
+@media screen and (min-width: 600px) {
+/* For screens with a width of 600 pixels or more (e.g., tablets) */
+.circular-image {
+    width: 150px;
+    height: 150px;
+      }
+}
+
+@media screen and (min-width: 768px) {
+/* For screens with a width of 768 pixels or more (e.g., larger phones) */
+.circular-image {
+    width: 120px;
+    height: 120px;
+      }
+}
+
+@media screen and (min-width: 1024px) {
+/* For screens with a width of 1024 pixels or more (e.g., PCs) */
+.circular-image {
+    width: 200px;
+    height: 200px;
+      }
+}
+.call-to-action {
+    text-align: center;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+.section h2 {
+    text-align: center;
+}
